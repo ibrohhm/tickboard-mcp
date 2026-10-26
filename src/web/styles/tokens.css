@@ -1,0 +1,32 @@
+:root {
+  --bg: #f5f6f4;
+  --surface: #fff;
+  --fg: #1c2420;
+  --muted: #5d6a63;
+  --line: #dde2dd;
+  --accent: #1f6f5c;
+  --danger: #b4570d;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141a17;
+    --surface: #1c2420;
+    --fg: #e6ebe7;
+    --muted: #94a39a;
+    --line: #2e3a34;
+    --accent: #5fc4a7;
+    --danger: #f0a061;
+    color-scheme: dark;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 15px/1.5 var(--font-body);
+}

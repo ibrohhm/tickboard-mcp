@@ -1,0 +1,4 @@
+.empty {
+  font: 12px var(--font-mono);
+  color: var(--muted);
+}

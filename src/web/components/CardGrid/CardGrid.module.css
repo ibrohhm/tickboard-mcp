@@ -1,0 +1,9 @@
+.grid {
+  columns: 3 240px;
+  column-gap: 16px;
+}
+
+.grid > * {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
